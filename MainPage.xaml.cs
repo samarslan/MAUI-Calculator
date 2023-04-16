@@ -1,4 +1,6 @@
-﻿namespace MAUI_Calculator;
+﻿using Microsoft.Maui.ApplicationModel;
+
+namespace MAUI_Calculator;
 
 public partial class MainPage : ContentPage
 {
@@ -6,19 +8,19 @@ public partial class MainPage : ContentPage
 
 	public MainPage()
 	{
-		InitializeComponent();
-	}
 
-	private void OnCounterClicked(object sender, EventArgs e)
-	{
-		count++;
+        InitializeComponent();
+        Application.Current.UserAppTheme = AppTheme.Light;
+    }
 
-		if (count == 1)
-			CounterBtn.Text = $"Clicked {count} time";
-		else
-			CounterBtn.Text = $"Clicked {count} times";
+    void OnClear(object sender, EventArgs e)
+    {
 
-		SemanticScreenReader.Announce(CounterBtn.Text);
-	}
+    }
+
+    void OnSquareRoot(object sender, EventArgs e)
+    {
+
+    }
 }
 
