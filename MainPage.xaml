@@ -8,7 +8,7 @@
     <Grid
         Padding="5,0"
         ColumnSpacing="1"
-        BackgroundColor="Gray"
+        BackgroundColor="{AppThemeBinding Light=#f7f7f7, Dark=#1d1d1d}"
         RowSpacing="1">
 
 
@@ -34,157 +34,157 @@
             Grid.Row="0"
             Grid.ColumnSpan="4"
             Padding="30"
-            BackgroundColor="White"
+            BackgroundColor="{AppThemeBinding Light=#ffffff, Dark=#2d2d2d}"
             FontAttributes="Bold"
             FontSize="48"
             HorizontalTextAlignment="End"
             LineBreakMode="NoWrap"
             Text="0"
-            TextColor="#512bd4"
+            TextColor="{AppThemeBinding Light=#333333, Dark=#f7f7f7}"
             VerticalTextAlignment="Center" />
 
         <Button
             Grid.Row="1"
             Grid.ColumnSpan="2"
-            BackgroundColor="LightGrey"
+            BackgroundColor="{AppThemeBinding Light=#e6e6e6, Dark=#2d2d2d}"
+            TextColor="{AppThemeBinding Light=#333333, Dark=#f7f7f7}"
             Clicked="OnClear"
             Released="Button_Released"
             Pressed="Button_Pressed"
             CornerRadius="0"
             FontSize="36"
-            Text="C"
-            TextColor="DarkGrey" />
+            Text="C" />
 
 
         <Button
             Grid.Row="1"
             Grid.Column="2"
-            BackgroundColor="LightGrey"
+            BackgroundColor="{AppThemeBinding Light=#e6e6e6, Dark=#2d2d2d}"
+            TextColor="{AppThemeBinding Light=#333333, Dark=#f7f7f7}"
             Clicked="OnSquareRoot"
             Released="Button_Released"
             Pressed="Button_Pressed"
             CornerRadius="0"
             FontSize="36"
-            Text="X2"
-            TextColor="DarkGrey" />
+            Text="X2" />
 
 
         <Button
             Grid.Row="2"
             Grid.Column="0"
-            BackgroundColor="White"
+            BackgroundColor="{AppThemeBinding Light=#e6e6e6, Dark=#2d2d2d}"
+            TextColor="{AppThemeBinding Light=#333333, Dark=#f7f7f7}"
             Clicked="OnNumberSelection"
             Released="Button_Released"
             Pressed="Button_Pressed"
             CornerRadius="0"
             FontSize="36"
-            Text="7"
-            TextColor="DarkGrey" />
+            Text="7" />
         <Button
             Grid.Row="2"
             Grid.Column="1"
-            BackgroundColor="White"
+            BackgroundColor="{AppThemeBinding Light=#e6e6e6, Dark=#2d2d2d}"
+            TextColor="{AppThemeBinding Light=#333333, Dark=#f7f7f7}"
             Clicked="OnNumberSelection"
             Released="Button_Released"
             Pressed="Button_Pressed"
             CornerRadius="0"
             FontSize="36"
-            Text="8"
-            TextColor="DarkGrey" />
+            Text="8" />
         <Button
             Grid.Row="2"
             Grid.Column="2"
-            BackgroundColor="White"
+            BackgroundColor="{AppThemeBinding Light=#e6e6e6, Dark=#2d2d2d}"
+            TextColor="{AppThemeBinding Light=#333333, Dark=#f7f7f7}"
             Clicked="OnNumberSelection"
             Released="Button_Released"
             Pressed="Button_Pressed"
             CornerRadius="0"
             FontSize="36"
-            Text="9"
-            TextColor="DarkGrey" />
+            Text="9" />
 
 
         <Button
             Grid.Row="3"
             Grid.Column="0"
-            BackgroundColor="White"
+            BackgroundColor="{AppThemeBinding Light=#e6e6e6, Dark=#2d2d2d}"
+            TextColor="{AppThemeBinding Light=#333333, Dark=#f7f7f7}"
             Clicked="OnNumberSelection"
             Released="Button_Released"
             Pressed="Button_Pressed"
             CornerRadius="0"
             FontSize="36"
-            Text="4"
-            TextColor="DarkGrey" />
+            Text="4" />
         <Button
             Grid.Row="3"
             Grid.Column="1"
-            BackgroundColor="White"
+            BackgroundColor="{AppThemeBinding Light=#e6e6e6, Dark=#2d2d2d}"
+            TextColor="{AppThemeBinding Light=#333333, Dark=#f7f7f7}"
             Clicked="OnNumberSelection"
             Released="Button_Released"
             Pressed="Button_Pressed"
             CornerRadius="0"
             FontSize="36"
-            Text="5"
-            TextColor="DarkGrey" />
+            Text="5" />
         <Button
             Grid.Row="3"
             Grid.Column="2"
-            BackgroundColor="White"
+            BackgroundColor="{AppThemeBinding Light=#e6e6e6, Dark=#2d2d2d}"
+            TextColor="{AppThemeBinding Light=#333333, Dark=#f7f7f7}"
             Clicked="OnNumberSelection"
             Released="Button_Released"
             Pressed="Button_Pressed"
             CornerRadius="0"
             FontSize="36"
-            Text="6"
-            TextColor="DarkGrey" />
+            Text="6" />
 
 
         <Button
             Grid.Row="4"
             Grid.Column="0"
-            BackgroundColor="White"
+            BackgroundColor="{AppThemeBinding Light=#e6e6e6, Dark=#2d2d2d}"
+            TextColor="{AppThemeBinding Light=#333333, Dark=#f7f7f7}"
             Clicked="OnNumberSelection"
             Released="Button_Released"
             Pressed="Button_Pressed"
             CornerRadius="0"
             FontSize="36"
-            Text="1"
-            TextColor="DarkGrey" />
+            Text="1" />
         <Button
             Grid.Row="4"
             Grid.Column="1"
-            BackgroundColor="White"
+            BackgroundColor="{AppThemeBinding Light=#e6e6e6, Dark=#2d2d2d}"
+            TextColor="{AppThemeBinding Light=#333333, Dark=#f7f7f7}"
             Clicked="OnNumberSelection"
             Released="Button_Released"
             Pressed="Button_Pressed"
             CornerRadius="0"
             FontSize="36"
-            Text="2"
-            TextColor="DarkGrey" />
+            Text="2" />
 
         <Button
             Grid.Row="4"
             Grid.Column="2"
-            BackgroundColor="White"
+            BackgroundColor="{AppThemeBinding Light=#e6e6e6, Dark=#2d2d2d}"
+            TextColor="{AppThemeBinding Light=#333333, Dark=#f7f7f7}"
             Clicked="OnNumberSelection"
             Released="Button_Released"
             Pressed="Button_Pressed"
             CornerRadius="0"
             FontSize="36"
-            Text="3"
-            TextColor="DarkGrey" />
+            Text="3" />
         <Button
             Grid.Row="5"
             Grid.Column="0"
             Grid.ColumnSpan="3"
-            BackgroundColor="White"
+            BackgroundColor="{AppThemeBinding Light=#e6e6e6, Dark=#2d2d2d}"
+            TextColor="{AppThemeBinding Light=#333333, Dark=#f7f7f7}"
             Clicked="OnNumberSelection"
             Released="Button_Released"
             Pressed="Button_Pressed"
             CornerRadius="0"
             FontSize="36"
-            Text="0"
-            TextColor="DarkGrey" />
+            Text="0" />
 
 
         <Button

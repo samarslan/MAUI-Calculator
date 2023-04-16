@@ -12,7 +12,7 @@ public partial class MainPage : ContentPage
     public MainPage()
     {
         InitializeComponent();
-        Application.Current.UserAppTheme = AppTheme.Light;
+        //Application.Current.UserAppTheme = AppTheme.Light;
         OnClear(this, null);
 
     }
