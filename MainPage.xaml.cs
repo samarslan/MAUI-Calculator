@@ -7,12 +7,14 @@ public partial class MainPage : ContentPage
     int currentState = 1;
     string operatorMath;
     double firstNum, secondNum;
+    Color orgColor;
 
     public MainPage()
     {
         InitializeComponent();
         Application.Current.UserAppTheme = AppTheme.Light;
         OnClear(this, null);
+
     }
 
     void OnClear(object sender, EventArgs e)
@@ -67,6 +69,22 @@ public partial class MainPage : ContentPage
         Button button = (Button)sender;
         string btnPressed = button.Text;
         operatorMath = btnPressed;
+    }
+
+    private void Button_Pressed(object sender, EventArgs e)
+    {
+        Button button = (Button)sender;
+
+        orgColor = (Color)button.BackgroundColor;
+
+        button.BackgroundColor = Color.FromHex("#838383 ");
+    }
+
+    private void Button_Released(object sender, EventArgs e)
+    {
+        Button button = (Button)sender;
+
+        button.BackgroundColor = orgColor;
     }
 
     void onCalculate(object sender, EventArgs e)
